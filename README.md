@@ -9,7 +9,9 @@ Getting Started
 ```vba
 Dim vector  As New ClassVector
 Dim arr     As Variant
+
 arr = Array(1, 2, 3)
+
 vector.Convert(arr)
 ```
 Now you can use comfortable syntax, supports such methods as `Add()`, `Count()`, `Delete()`, `Sort()` and other.
