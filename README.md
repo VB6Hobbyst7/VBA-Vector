@@ -24,10 +24,13 @@ Dim vector      As New ClassVector
 Dim arr1        As Variant
 dim arr2        As Variant
 dim arr3        As Variant
+
 arr1 = Array(1, 2, 3)
 arr2 = Array("test1", "test2", "test3")
 arr3 = Array(1.11, 2.22, 3.14)
+
 vector.Convert(arr1)
+
 vector.Add(arr2, arr3)
 ```
 Check information about data inside vector:
