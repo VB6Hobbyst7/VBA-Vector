@@ -71,17 +71,5 @@ vector.FilterType("string")
 vector.Slice(0, 2)
 ```
 
-Delete elements 
-```vba
-' Delete items by index:
-Call vector.DeleteByIndex(1, 2, 3)
-
-' Delete items by value:
-vector.DeleteByValue("test2")
-
-' Delete all items:
-vector.Clear()
-```
-
 
 More information about methods you can find in [documentation](https://github.com/vadmitriev/VBA-Vector/wiki/).
